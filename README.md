@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🛒 E-commerce API
 A backend REST API for an e-commerce platform built with Django and Django REST Framework.
 The project implements product catalog management, shopping cart functionality, order processing, and JWT authentication.
@@ -118,3 +119,7 @@ MIT License
 👨‍💻 Author
 Javohir Gulyamov
 Backend project built using Django REST Framework as part of backend development practice.
+=======
+# store-api
+Django REST E-commerce API
+>>>>>>> a200a874a827d679702695317f2342c970b8bf2a
