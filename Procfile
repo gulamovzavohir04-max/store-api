@@ -1,1 +1,1 @@
-web: sh -c "python manage.py migrate && python manage.py createsuperuser --noinput || true && gunicorn config.wsgi:application --bind 0.0.0.0:$PORT"
+web: sh -c "python manage.py migrate && python manage.py shell -c \"from accounts.models import User; u=User.objects.get(username='admin'); u.set_password('12345678'); u.is_active=True; u.is_staff=True; u.is_superuser=True; u.save(); print('ADMIN PASSWORD RESET OK')\" && gunicorn config.wsgi:application --bind 0.0.0.0:$PORT"
