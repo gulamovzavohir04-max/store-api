@@ -34,6 +34,9 @@ CSRF_TRUSTED_ORIGINS = [
     "https://web-production-fbba5.up.railway.app",
 ]
 
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+
 
 # Application definition
 INSTALLED_APPS = [
