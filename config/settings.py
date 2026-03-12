@@ -27,7 +27,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "web-production-fbba5.up.railway.app",
+    ".railway.app",
 ]
 
 # Application definition
