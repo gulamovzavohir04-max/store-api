@@ -86,6 +86,8 @@ PATCH /api/orders/{id}/
 
 DELETE /api/orders/{id}/
 ⚙️ Installation
+🐳 Run with Docker
+docker compose up --build
 1️⃣ Clone repository
 git clone https://github.com/yourusername/ecommerce-api.git
 cd ecommerce-api
@@ -101,7 +103,7 @@ pip install -r requirements.txt
 4️⃣ Run migrations
 python manage.py migrate
 5️⃣ Create superuser
-python manage.pycreatesuperuser
+python manage.py createsuperuser
 6️⃣ Start development server
 python manage.py runserver
 🛠 Admin Panel
@@ -118,7 +120,3 @@ MIT License
 👨‍💻 Author
 Javohir Gulyamov
 Backend project built using Django REST Framework as part of backend development practice.
-=======
-# store-api
-Django REST E-commerce API
->>>>>>> a200a874a827d679702695317f2342c970b8bf2a
