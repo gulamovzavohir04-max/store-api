@@ -1,1 +1,1 @@
-web: sh -c "python manage.py migrate && python manage.py createsuperuser --noinput || true && gunicorn config.wsgi:application --bind 0.0.0.0:$PORT"
+python manage.py migrate && gunicorn config.wsgi:application --bind 0.0.0.0:$PORT
