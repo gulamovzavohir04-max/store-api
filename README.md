@@ -2,6 +2,7 @@
 A backend REST API for an e-commerce platform built with Django and Django REST Framework.
 The project implements product catalog management, shopping cart functionality, order processing, and JWT authentication.
 The API is fully documented with Swagger (OpenAPI).
+
 🚀 Technologies
 Python 3
 Django
