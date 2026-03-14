@@ -52,38 +52,26 @@ Use token in requests:
 Authorization: Bearer <access_token>
 📡 Main Endpoints
 Accounts
-
 GET /api/accounts/me/
 Catalog
-
 GET /api/catalog/categories/
 POST /api/catalog/categories/
-
 GET /api/catalog/products/
 POST /api/catalog/products/
-
 GET /api/catalog/products/{id}/
 PUT /api/catalog/products/{id}/
 DELETE /api/catalog/products/{id}/
 Cart
-
 GET /api/cart/
 POST /api/cart/add/
-
 PATCH /api/cart/update/{item_id}/
-
 DELETE /api/cart/remove/{item_id}/
-
 DELETE /api/cart/clear/
 Orders
 GET /api/orders/
-
 GET /api/orders/{id}/
-
 POST /api/orders/create/
-
 PATCH /api/orders/{id}/
-
 DELETE /api/orders/{id}/
 ⚙️ Installation
 🐳 Run with Docker
